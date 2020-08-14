@@ -9,9 +9,6 @@ Also you can configure application host and port. By default it is 0.0.0.0 and 8
 Thats all.
 
 ## request
-
-:
-
     curl --location --request POST 'localhost:8080/v1/email' \
     --header 'Content-Type: application/json' \
     --data-raw '{
@@ -22,9 +19,6 @@ Thats all.
     }'
 
 ## response
-
-:
-
     {
     "message": "{\"message\":\"success\"}",
     "result": 200,
