@@ -12,7 +12,11 @@ libraryDependencies ++= Seq(
 
   "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion,
   "com.typesafe.akka" %% "akka-actor" % AkkaVersion,
-  "com.sendgrid" % "sendgrid-java" % "1.2.1",
+
+
+  "com.sendgrid" % "sendgrid-java" % "1.2.1", // send grid package
+
+
   "com.typesafe.akka" %% "akka-http-spray-json" % AkkaHttpVersion,
   "com.typesafe.akka" %% "akka-slf4j"     % akkaLoggingVersion,
   "ch.qos.logback" % "logback-classic" % "1.1.3" % Runtime
